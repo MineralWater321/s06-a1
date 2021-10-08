@@ -1,0 +1,44 @@
+* {
+	font-family: "Arial";
+	font-size:  20px;
+}
+
+h1 {
+	font-size: 350%;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+#externalStyling {
+	color: yellow;
+}
+
+.languages {
+	background-color: lightgreen;
+}
+
+ol[type] > li{
+	border-width: 2px;
+	border-style: solid;
+	border-color: lightblue;
+}
+
+.image + ul.noBullets {
+	list-style-type: none;
+}
+
+div img {
+	height: 150px;
+	width: 150px;
+	border-radius: 150px;
+}
+
+ul > li {
+	letter-spacing: 5px;
+}
+
+ul ~ p {
+	text-align: center;
+}
+
